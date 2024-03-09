@@ -1,7 +1,9 @@
+import Header from './components/Header.jsx';
+
 function App() {
-  return (
-    <h1>React Investment Calculator</h1>
-  )
+  return <main>
+    <Header />
+  </main>
 }
 
 export default App
